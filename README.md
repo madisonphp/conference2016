@@ -1,11 +1,11 @@
-# Madison PHP Conference 2015
+# Madison PHP Conference 2016
 
-Website for the 2015 Madison PHP Conference
+Website for the 2016 Madison PHP Conference
 
 ## Installing
 
-- Grab the project `git clone https://github.com/madisonphp/conference2015.git`
-- Move into the project `cd conference2015`
+- Grab the project `git clone https://github.com/madisonphp/conference2016.git`
+- Move into the project `cd conference2016`
 - Install packages and dependencies `composer install`
 - Configuration webserver
   - Apache/nginx:
