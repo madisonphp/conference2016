@@ -37,13 +37,17 @@ h1, h2, h3, h4 {
 
 .jumbotron
 {
-    background-image: url(../images/madison-skyline.jpg);
+    background: url(../images/madison-skyline.jpg) 0px -310px;
     background-size: cover;
-    background-position: center bottom;
     border-bottom: 5px solid #b70610;
     color: #fff;
-    height: 360px;
-    padding: 70px 0;
+    height: 280px;
+    padding: 40px 0px 0px 0px;
+}
+
+h2.header_date {
+    margin: -40px 0px 10px 400px;
+    width: 500px;
 }
 
 .sponsor-page-images {
@@ -121,3 +125,4 @@ table.schedule td.room6 {
 table.schedule td a {
     font-weight: bolder;
 }
+
