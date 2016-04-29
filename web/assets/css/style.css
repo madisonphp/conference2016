@@ -128,3 +128,10 @@ table.schedule td a {
     font-weight: bolder;
 }
 
+.btn-red {
+    background: #b70610;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 5px 25px;
+}
