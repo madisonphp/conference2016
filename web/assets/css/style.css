@@ -135,3 +135,6 @@ table.schedule td a {
     font-size: 2em;
     padding: 5px 25px;
 }
+.btn-highlight {
+    border: 2px solid #0000FF;
+}
