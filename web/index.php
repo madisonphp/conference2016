@@ -75,10 +75,10 @@ $sponsors = array(
     ),
     'community' => array(
         array(
-            'name' => '',
-            'href' => '',
-            'img'  => '',
-            'thumbnail' => '',
+            'name' => 'Columbus PHP',
+            'href' => 'http://columbusphp.org',
+            'img'  => '/assets/images/sponsors/columbus_php.png',
+            'thumbnail' => '/assets/images/sponsors/columbus_php_thumb.png',
         ),
     ),
 );
