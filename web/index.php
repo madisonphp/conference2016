@@ -39,6 +39,7 @@ $sponsors = array(
             'href' => '',
             'img'  => '',
             'thumbnail' => '',
+            'twitter' => '',
         ),
     ),
     'gold' => array(
@@ -47,6 +48,7 @@ $sponsors = array(
             'href' => '',
             'img'  => '',
             'thumbnail' => '',
+            'twitter' => '',
         ),
     ),
     'silver' => array(
@@ -55,14 +57,16 @@ $sponsors = array(
             'href' => '',
             'img'  => '',
             'thumbnail' => '',
+            'twitter' => '',
         ),
     ),
     'bronze' => array(
         array(
-            'name' => '',
-            'href' => '',
-            'img'  => '',
-            'thumbnail' => '',
+            'name' => 'boberdoo.com',
+            'href' => 'http://boberdoo.com/jobs',
+            'img'  => '/assets/images/sponsors/boberdoo.png',
+            'thumbnail' => '/assets/images/sponsors/boberdoo_thumb.png',
+            'twitter' => 'boberdoo',
         ),
     ),
     'scholarship' => array(
@@ -71,6 +75,7 @@ $sponsors = array(
             'href' => '',
             'img'  => '',
             'thumbnail' => '',
+            'twitter' => '',
         ),
     ),
     'community' => array(
@@ -79,6 +84,7 @@ $sponsors = array(
             'href' => 'http://columbusphp.org',
             'img'  => '/assets/images/sponsors/columbus_php.png',
             'thumbnail' => '/assets/images/sponsors/columbus_php_thumb.png',
+            'twitter' => 'columbusphp',
         ),
     ),
 );
