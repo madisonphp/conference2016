@@ -3,7 +3,7 @@
 {% block title %}Schedule{% endblock %}
 
 {% block meta_description %}
-2015 Madison PHP Conference Schedule
+2016 Madison PHP Conference Schedule
 {% endblock %}
 
 {% block content %}
@@ -16,7 +16,7 @@
 
 {% for speaker in talk.speaker %}
     <div style="clear:both;">
-    <img src="{{ speaker.img }}" class="img-responsive img-thumbnail" style="float: left; margin-right: 10px;" alt="{{ speaker.name }}"><br>
+    <img src="/assets/images/speakers/{{ speaker.img }}" class="img-responsive img-thumbnail" style="float: left; margin-right: 10px;" alt="{{ speaker.name }}"><br>
     <h3>{{ speaker.name }}
         {% if speaker.twitter %}
         (<a href="http://www.twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>)

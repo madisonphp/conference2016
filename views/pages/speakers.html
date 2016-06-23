@@ -3,13 +3,44 @@
 {% block title %}Speakers{% endblock %}
 
 {% block meta_description %}
-2015 Madison PHP Conference Speakers
+2016 Madison PHP Conference Speakers
 {% endblock %}
 
 {% block content %}
 <h2>Speakers</h2>
 
-<p>
-Enim direct trade nihil sed, tilde asymmetrical officia esse accusamus. Heirloom cliche fap, slow-carb Etsy consequat gluten-free deep v cupidatat Carles drinking vinegar nostrud Kickstarter ad tilde. Ullamco ethical salvia meggings odio, placeat authentic banjo four loko roof party Intelligentsia. Tousled occupy flannel aliquip Brooklyn esse actually four dollar toast, fugiat try-hard officia Marfa Bushwick four loko vegan.
-</p>
+<p><a href="/schedule">View the Full Schedule</a></p>
+
+<hr>
+{% for key, talkSlot in talks %}
+
+    {% if key == 'schedule_set' %}
+    {% elseif key == 'rooms_set' %}
+    {% else %}
+
+        {% for speaker in talkSlot.speaker %}
+            <div>
+                <img src="/assets/images/speakers/{{ speaker.img }}" class="img-responsive img-thumbnail" style="float: left; margin-right: 10px;" alt="{{ speaker.name }}">
+                {% if key == "keynote" %}
+                    <h2>Keynote Speaker</h2>
+                {% endif %}
+                <h3>{{ speaker.name }}
+                    {% if speaker.twitter %}
+                    (<a href="http://www.twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>)
+                    {% endif %} (<a href="/talks/{{key}}">View Talk</a>)</h3>
+                {{ speaker.bio|raw }}</p>
+
+            </div>
+            <div style="clear:both; height: 15px; border-bottom: 1px solid #000000;"></div>
+        {% endfor %}
+    {% endif %}
+
+{% endfor %}
+<hr>
+
+
+
+
+
+
 {% endblock %}
