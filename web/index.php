@@ -391,15 +391,15 @@ $talks = array(
     'D2' => array(
         'speaker' => array (
             array (
-                'name' => '',
-                'img' => 'madison-php-logo.jpg',
-                'bio' => '',
-                'twitter' => '',
+                'name' => 'Emily Stamey',
+                'img' => 'emily_stamey.jpg',
+                'bio' => 'Emily is a developer at NC State, supporting the College of Engineering. She learned PHP in 1999 and discovered a whole new world of fun and programming. This started her passion for Open Source! In her free time she enjoys music, legos, making things, playing games, and socializing. She is an active volunteer in the community as an Organizer of TrianglePHP and Girl Develop It. She really enjoys helping people share ideas and learn together, which has led to her speaking at conferences.',
+                'twitter' => 'elstamey',
             ),
         ),
-        'title' => 'TBA',
+        'title' => 'What\'s Your Skateboard?',
         'tagline' => '',
-        'talk_description' => '',
+        'talk_description' => 'User Story Mapping is a valuable tool that gives you strategies to view features alongside the problems they solve. It is a powerful approach that allows many people to collaborate and prioritize features, regardless of technical expertise. Instead of planning our project as a building that we must build a strong foundation, we begin to plan as a vehicle. This focus delivers the Most Valuable Features to the customer by answering the question, "What\'s Your Skateboard?"',
     ),
     'F1' => array(
         'speaker' => array (
