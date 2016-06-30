@@ -55,6 +55,9 @@
                 {% for sponsor in sponsors.silver %}
                 <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver"></a>
                 {% endfor %}
+                {% for sponsor in sponsors.bronze %}
+                <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver"></a>
+                {% endfor %}
             </div>
         </div>
 

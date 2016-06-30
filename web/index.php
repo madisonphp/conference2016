@@ -75,6 +75,20 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/siteground_thumb.png',
             'twitter' => 'SiteGround',
         ),
+        array(
+            'name' => 'MuleSoft',
+            'href' => 'https://developer.mulesoft.com',
+            'img'  => '/assets/images/sponsors/mulesoft.png',
+            'thumbnail' => '/assets/images/sponsors/mulesoft_thumb.png',
+            'twitter' => 'muledev',
+        ),
+        array(
+            'name' => 'Snap Programming',
+            'href' => 'http://snapprogramming.com/',
+            'img'  => '/assets/images/sponsors/snapprogramming.png',
+            'thumbnail' => '/assets/images/sponsors/snapprogramming_thumb.png',
+            'twitter' => 'SnapProgramming',
+        ),
     ),
     'scholarship' => array(
         array(
