@@ -244,17 +244,15 @@ $talks = array(
     'B2' => array(
         'speaker' => array (
             array (
-                'name' => 'Jonathan Sundquist',
+                'name' => '',
                 'img' => 'madison-php-logo.jpg',
-                'bio' => '<p>Jonathan is a Solution Architect for Interactive Data where he helps developers solve problems from what technology to use to best practices within their code. When not at work, he can be found playing with his two sons, visiting local breweries, and going biking around the city.</p>',
-                'twitter' => 'jsundquist',
+                'bio' => '',
+                'twitter' => '',
             ),
         ),
-        'title' => 'How Much Do You Really Know About Arrays?',
+        'title' => 'TBD',
         'tagline' => '',
-        'talk_description' => '<p>At some point you are going to work at arrays within your code. At some point you may need to iterate over the array or filter out items that you don\'t need. During that time, are you going to reach for an IF statement or a loop of some kind? Why not instead make use of one of the amazing array_* functions available.</p>
-
-<p>In this talk we will take a journey an examine some of the wonderful array_* functions that php offers us.  We will look at why you should make use of the functions, how they can decrease your code complexity, and how you can improve your code quality in the long run.</p>',
+        'talk_description' => '',
     ),
     'B1' => array(
         'speaker' => array (
