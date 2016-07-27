@@ -92,11 +92,11 @@ $sponsors = array(
     ),
     'scholarship' => array(
         array(
-            'name' => '',
-            'href' => '',
-            'img'  => '',
-            'thumbnail' => '',
-            'twitter' => '',
+            'name' => 'Blend',
+            'href' => 'http://blendimc.com',
+            'img'  => '/assets/images/sponsors/blend.png',
+            'thumbnail' => '/assets/images/sponsors/blend_thumb.png',
+            'twitter' => 'blendimc',
         ),
     ),
     'community' => array(
