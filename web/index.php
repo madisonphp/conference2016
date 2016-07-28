@@ -244,15 +244,15 @@ $talks = array(
     'B2' => array(
         'speaker' => array (
             array (
-                'name' => '',
-                'img' => 'madison-php-logo.jpg',
-                'bio' => '',
-                'twitter' => '',
+                'name' => 'Elliott Post',
+                'img' => 'elliott_post.png',
+                'bio' => 'Elliott Post holds his master\'s degree in Computer Science from Loyola University Chicago. He has almost 2 decades of programming experience and currently runs a small web development company named <a href="http://ellytronic.media">Ellytronic Media</a>. Elliott also teaches computer science courses part-time at Loyola, and he is also a co-organizer of the <a href="http://www.meetup.com/chicago-web-pros/">Chicago Web Pros Meetup</a>.',
+                'twitter' => 'epost88',
             ),
         ),
-        'title' => 'TBD',
+        'title' => 'PHP Session and Password Security',
         'tagline' => '',
-        'talk_description' => '',
+        'talk_description' => 'Any website that has the ability to "remember"  or "recognize"  a visitor uses some form of _session_ management. These sessions, which have a one-to-one correspondence with a unique site visitor, often contain sensitive information including a unique session ID. Because these sessions contain sensitive data and are used to identify a specific user the sessions become a target for attackers. Most server-side languages such as PHP have rudimentary session management built into its core or is available as an official library. Unfortunately, the default session management is often insecure on its own and there is a series of steps which must be followed to protect against session hijacking, session fixation, and session predicting. Additionally, PHP recently revised the way it handles password management and this change is related to session management. This talk discusses how to improve session security and utilize the new password management features.',
     ),
     'B1' => array(
         'speaker' => array (
