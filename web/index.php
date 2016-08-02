@@ -89,6 +89,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/snapprogramming_thumb.png',
             'twitter' => 'SnapProgramming',
         ),
+        array(
+            'name' => 'Cisco',
+            'href' => 'https://developer.cisco.com',
+            'img'  => '/assets/images/sponsors/cisco.png',
+            'thumbnail' => '/assets/images/sponsors/cisco_thumb.png',
+            'twitter' => 'ciscodevnet',
+        ),
     ),
     'scholarship' => array(
         array(
