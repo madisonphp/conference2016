@@ -328,7 +328,7 @@ $talks = array(
         ),
         'title' => 'Oh Crap, My Code is Slow',
         'tagline' => '',
-        'talk_description' => '<p>There is are many excuses that developers use for inefficient code - CPU and RAM is cheap these days, or PHP is by default a slow language. These are just a few of those. What happens when your code is actually to slow to scale? Most of us will not deal with things on the scale of Facebook or Google, but there will come a time where we will need to figure out why code is slow. Thankfully there are are many different tools to help us out and properly optimize our code for  those times when we need to dig deep into our code.</p>',
+        'talk_description' => '<p>There are many excuses that developers use for inefficient code - CPU and RAM is cheap these days, or PHP is by default a slow language. These are just a few of those. What happens when your code is actually to slow to scale? Most of us will not deal with things on the scale of Facebook or Google, but there will come a time where we will need to figure out why code is slow. Thankfully there are are many different tools to help us out and properly optimize our code for  those times when we need to dig deep into our code.</p>',
     ),
     'A3' => array(
         'speaker' => array (
