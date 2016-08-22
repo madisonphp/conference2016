@@ -96,6 +96,20 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/cisco_thumb.png',
             'twitter' => 'ciscodevnet',
         ),
+        array(
+            'name' => 'The Iron Yard',
+            'href' => 'https://www.theironyard.com/',
+            'img'  => '/assets/images/sponsors/ironyard.png',
+            'thumbnail' => '/assets/images/sponsors/ironyard_thumb.png',
+            'twitter' => 'theironyard',
+        ),
+        array(
+            'name' => 'Earthling Interactive',
+            'href' => 'http://bit.ly/2bmRW9f',
+            'img'  => '/assets/images/sponsors/earthling.png',
+            'thumbnail' => '/assets/images/sponsors/earthling_thumb.png',
+            'twitter' => 'WeAreEarthling',
+        ),
     ),
     'scholarship' => array(
         array(
