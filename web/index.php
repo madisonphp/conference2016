@@ -53,11 +53,11 @@ $sponsors = array(
     ),
     'silver' => array(
         array(
-            'name' => '',
-            'href' => '',
-            'img'  => '',
-            'thumbnail' => '',
-            'twitter' => '',
+            'name' => 'Madison College',
+            'href' => 'http://it.madisoncollege.edu',
+            'img'  => '/assets/images/sponsors/madisoncollege.jpg',
+            'thumbnail' => '/assets/images/sponsors/madisoncollege_thumb.jpg',
+            'twitter' => 'MadisonIT',
         ),
     ),
     'bronze' => array(
