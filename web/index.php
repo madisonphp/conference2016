@@ -192,8 +192,8 @@ $talks = array(
         ),
         'title' => 'Application Security Nuts to Bolts',
         'tagline' => '',
-        'talk_description' => '<p>The tutorial is a 2 part overview of the security practices that developers evolved in supporting and developing modern applications should consider. The first part of the tutorial will focus on the common security best practices aimed at putting prevention mechanisms for common attack vectors described in OWASP 10 and similar. This part of the tutorial will cover topics such as XSS, SQL Injection, session hijacking etc...</p>
-<p>The 2nd part of the tutorial will focus on the outline security practices and solutions designed to address security issues within application\'s business and processing logic. The tutorial will provide an overview of how to securely implement in application data management controls within ACLs, data-models and how to avoid common mistakes and pitfalls.</p>',
+        'talk_description' => '<p>This tutorial is a two-part overview of the security practices that developers supporting and developing modern applications should consider. The first part of the tutorial will focus on the common security best practices aimed at putting prevention mechanisms in place for common attack vectors such as XSS, SQL Injection, session hijacking, etc.</p>
+<p>The second part of this tutorial will focus on the security best practices and solutions designed to address security issues within an application\'s business and processing logic. It will provide an overview of how to securely implement these in application data management controls within ACLs and data-models, as well as how to avoid common mistakes and pitfalls.</p>',
     ),
     'TB2' => array(
         'speaker' => array (
