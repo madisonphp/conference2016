@@ -110,6 +110,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/cisco_thumb.png',
             'twitter' => 'ciscodevnet',
         ),
+        array(
+            'name' => 'SensioLabs',
+            'href' => 'https://sensiolabs.com',
+            'img'  => '/assets/images/sponsors/sensio.png',
+            'thumbnail' => '/assets/images/sponsors/sensio_thumb.png',
+            'twitter' => 'sensiolabs',
+        ),
     ),
     'scholarship' => array(
         array(
