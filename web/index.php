@@ -117,6 +117,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/sensio_thumb.png',
             'twitter' => 'sensiolabs',
         ),
+        array(
+            'name' => 'Robert Half',
+            'href' => 'https://www.roberthalf.com/madison',
+            'img'  => '/assets/images/sponsors/roberthalf.jpg',
+            'thumbnail' => '/assets/images/sponsors/roberthalf_thumb.jpg',
+            'twitter' => 'RobertHalfTech',
+        ),
     ),
     'scholarship' => array(
         array(
