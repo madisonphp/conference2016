@@ -149,7 +149,7 @@ $app['sponsors'] = $sponsors;
 
 $talks = array(
     'schedule_set' => 'Yes',
-    'rooms_set' => 'No',
+    'rooms_set' => 'Yes',
     'keynote' => array(
         'speaker' => array (
             array (

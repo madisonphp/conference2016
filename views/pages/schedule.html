@@ -24,19 +24,19 @@
         </div>
 
         <div class="col-md-6 heading-text">
-            <!--
                 <p><a href="/conference_map"><img src="/assets/images/room_map_thumb.png" alt="Conference map"><br>View a map of the conference.</a></p>
-            -->
             </div>
         </div>
     <h2 class="separator-mainheader color">Schedule</h2>
 
     {% if talks.rooms_set == 'Yes' %}
 
+    <p>Note: the colors on the schedule match the colors on the <a href="/conference_map">conference map</a>.</p>
+
     <table class="schedule" border="1" cellspacing="0" cellpadding="5">
         <tr><td colspan="3"><h3>Friday, September 30, 2016 - Tutorial Day</h3></td></tr>
-        <tr><td></td><td class="room1"><h4>Room 1</h4></td><td class="room2"><h4>Room 2</h4></td><td class="room3"><h4>Room 3</h4></td></tr>
-        <tr><td nowrap>8:30 am - 9:00 am</td><td colspan="3" class="room6">Check-in (at Registration)</td></tr>
+        <tr><td></td><td class="room1"><h4>Oakbrook</h4></td><td class="room2"><h4>Odana</h4></td></tr>
+        <tr><td nowrap>8:30 am - 9:00 am</td><td colspan="2" class="room6">Check-in (Main Lobby)</td></tr>
         <tr><td nowrap>9:00 am - 10:30 am</td>
             <td class="room1"><a href="/talks/TA1">{{ talks.TA1.title }} (Part 1)</a><br>
                 {% for speaker in talks.TA1.speaker %}
@@ -62,28 +62,28 @@
                 {% endfor %}
             </td>
         </tr>
-        <tr><td nowrap>12:30 pm - 1:30 pm</td><td colspan="2" class="room6">Lunch - provided</td></tr>
+        <tr><td nowrap>12:30 pm - 1:30 pm</td><td colspan="2" class="room3"><strong>Lunch</strong> - provided (food served in the Twist Lobby, seating in Grand Canyon)</td></tr>
         <tr><td nowrap>1:30 pm - 3:00 pm</td>
-            <td class="room1"><a href="/talks/TB1">{{ talks.TB1.title }} (Part 1)</a><br>
-                {% for speaker in talks.TB1.speaker %}
+            <td class="room1"><a href="/talks/TB2">{{ talks.TB2.title }} (Part 1)</a><br>
+                {% for speaker in talks.TB2.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
-            <td class="room2"><a href="/talks/TB2">{{ talks.TB2.title }} (Part 1)</a><br>
-                {% for speaker in talks.TB2.speaker %}
+            <td class="room2"><a href="/talks/TB1">{{ talks.TB1.title }} (Part 1)</a><br>
+                {% for speaker in talks.TB1.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
         </tr>
-        <tr><td nowrap>3:00 pm - 3:30 pm</td><td colspan="3" class="room1">Afternoon Break</td></tr>
+        <tr><td nowrap>3:00 pm - 3:30 pm</td><td colspan="3" class="room6">Afternoon Break</td></tr>
         <tr><td nowrap>3:30 pm - 5:00 pm</td>
-            <td class="room1"><a href="/talks/TB1">{{ talks.TB1.title }} (Part 2)</a><br>
-                {% for speaker in talks.TB1.speaker %}
+            <td class="room1"><a href="/talks/TB2">{{ talks.TB2.title }} (Part 2)</a><br>
+                {% for speaker in talks.TB2.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
-            <td class="room2"><a href="/talks/TB2">{{ talks.TB2.title }} (Part 2)</a><br>
-                {% for speaker in talks.TB2.speaker %}
+            <td class="room2"><a href="/talks/TB1">{{ talks.TB1.title }} (Part 2)</a><br>
+                {% for speaker in talks.TB1.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
@@ -93,11 +93,28 @@
 
     <table class="schedule" border="1" cellspacing="0" cellpadding="5">
         <tr><td colspan="4"><h3>Saturday, October 1, 2016 - Conference Day</h3></td></tr>
-        <tr><td></td><td class="room1"><h4>Room 1</h4></td><td class="room2"><h4>Room 2</h4></td><td class="room3"><h4>Room 3</h4></td></tr>
-        <tr><td nowrap>8:30 am - 9:00 am</td><td colspan="3" class="room6">Check-in (at Registration)</td></tr>
+        <tr><td></td><td class="room1"><h4>Oakbrook</h4></td><td class="room2"><h4>Odana</h4></td><td class="room3"><h4>Grand Canyon</h4></td></tr>
+        <tr><td nowrap>8:30 am - 9:00 am</td><td colspan="3" class="room6">Check-in (Main Lobby)</td></tr>
         <tr><td nowrap>9:00 am - 9:50 am</td>
-            <td class="room1"><a href="/talks/A1">{{ talks.A1.title }}</a><br>
-                {% for speaker in talks.A1.speaker %}
+            <td class="room1"><a href="/talks/C1">{{ talks.C1.title }}</a><br>
+                {% for speaker in talks.C1.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room2"><a href="/talks/A3">{{ talks.A3.title }}</a><br>
+                {% for speaker in talks.A3.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room3"><a href="/talks/B1">{{ talks.B1.title }}</a><br>
+                {% for speaker in talks.B1.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+        </tr>
+        <tr><td nowrap>10:10 am - 11:00 am</td>
+            <td class="room1"><a href="/talks/B3">{{ talks.B3.title }}</a><br>
+                {% for speaker in talks.B3.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
@@ -106,37 +123,20 @@
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
-            <td class="room3"><a href="/talks/A3">{{ talks.A3.title }}</a><br>
-                {% for speaker in talks.A3.speaker %}
-                {{ speaker.name }}<br>
-                {% endfor %}
-            </td>
-        </tr>
-        <tr><td nowrap>10:10 am - 11:00 am</td>
-            <td class="room1"><a href="/talks/B1">{{ talks.B1.title }}</a><br>
-                {% for speaker in talks.B1.speaker %}
-                {{ speaker.name }}<br>
-                {% endfor %}
-            </td>
-            <td class="room2"><a href="/talks/B2">{{ talks.B2.title }}</a><br>
+            <td class="room3"><a href="/talks/B2">{{ talks.B2.title }}</a><br>
                 {% for speaker in talks.B2.speaker %}
-                {{ speaker.name }}<br>
-                {% endfor %}
-            </td>
-            <td class="room3"><a href="/talks/B3">{{ talks.B3.title }}</a><br>
-                {% for speaker in talks.B3.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
         </tr>
         <tr><td nowrap>11:20 am - 12:10 pm</td>
-            <td class="room1"><a href="/talks/C1">{{ talks.C1.title }}</a><br>
-                {% for speaker in talks.C1.speaker %}
+            <td class="room1"><a href="/talks/D1">{{ talks.D1.title }}</a><br>
+                {% for speaker in talks.D1.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
-            <td class="room2"><a href="/talks/C2">{{ talks.C2.title }}</a><br>
-                {% for speaker in talks.C2.speaker %}
+            <td class="room2"><a href="/talks/A1">{{ talks.A1.title }}</a><br>
+                {% for speaker in talks.A1.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
@@ -146,27 +146,27 @@
                 {% endfor %}
             </td>
         </tr>
-        <tr><td nowrap>12:10 pm - 1:30 pm</td><td colspan="3" class="room5">Lunch -- food provided</td></tr>
+        <tr><td nowrap>12:10 pm - 1:30 pm</td><td colspan="3" class="room3"><strong>Lunch</strong> -- provided (food served in the Twist Lobby, seating in Grand Canyon)</td></tr>
         <tr><td nowrap>1:30 pm - 2:20 pm</td>
-            <td class="room1"><a href="/talks/D1">{{ talks.D1.title }}</a><br>
-                {% for speaker in talks.D1.speaker %}
-                {{ speaker.name }}<br>
-                {% endfor %}
-            </td>
-            <td class="room2"><a href="/talks/D2">{{ talks.D2.title }}</a><br>
+            <td class="room1"><a href="/talks/D2">{{ talks.D2.title }}</a><br>
                 {% for speaker in talks.D2.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
-            <td class="room3"><a href="/talks/D3">{{ talks.D3.title }}</a><br>
-                {% for speaker in talks.D3.speaker %}
+            <td class="room2"><a href="/talks/C2">{{ talks.C2.title }}</a><br>
+                {% for speaker in talks.C2.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </td>
+            <td class="room3"><a href="/talks/E1">{{ talks.E1.title }}</a><br>
+                {% for speaker in talks.E1.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
         </tr>
         <tr><td nowrap>2:40 pm - 3:30 pm</td>
-            <td class="room1"><a href="/talks/E1">{{ talks.E1.title }}</a><br>
-                {% for speaker in talks.E1.speaker %}
+            <td class="room1"><a href="/talks/D3">{{ talks.D3.title }}</a><br>
+                {% for speaker in talks.D3.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
@@ -181,33 +181,32 @@
                 {% endfor %}
             </td>
         </tr>
-        <tr><td nowrap>3:30 pm - 4:00 pm</td><td colspan="3" class="room6">Afternoon Break</td></tr>
-        <tr><td nowrap>4:00 pm - 4:50 pm</td>
-            <td class="room1"><a href="/talks/E1">{{ talks.E1.title }}</a><br>
-                {% for speaker in talks.E1.speaker %}
+        <tr><td nowrap>3:50 pm - 4:40 pm</td>
+            <td class="room1"><a href="/talks/F2">{{ talks.F2.title }}</a><br>
+                {% for speaker in talks.F2.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
-            <td class="room2"><a href="/talks/E2">{{ talks.E2.title }}</a><br>
-                {% for speaker in talks.E2.speaker %}
+            <td class="room2"><a href="/talks/F3">{{ talks.F3.title }}</a><br>
+                {% for speaker in talks.F3.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
-            <td class="room3"><a href="/talks/E3">{{ talks.E3.title }}</a><br>
-                {% for speaker in talks.E3.speaker %}
+            <td class="room3"><a href="/talks/F1">{{ talks.F1.title }}</a><br>
+                {% for speaker in talks.F1.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
         </tr>
         <tr><td nowrap>5:00 pm - 6:00 pm</td>
-            <td colspan="3" class="room1"><a href="/talks/keynote">{{ talks.keynote.title }}</a><br>
+            <td colspan="3" class="room3"><a href="/talks/keynote">{{ talks.keynote.title }}</a><br>
                 {% for speaker in talks.keynote.speaker %}
                 {{ speaker.name }}<br>
                 {% endfor %}
             </td>
         </tr>
-        <tr><td nowrap>6:00 pm - 6:15 pm</td><td colspan="3" class="room1">Closing Remarks and Prizes</td></tr>
-        <tr><td nowrap>6:15 pm - 7:00 pm</td><td colspan="3" class="room6">Reception -- appetizers provided</td></tr>
+        <tr><td nowrap>6:00 pm - 6:15 pm</td><td colspan="3" class="room3"><strong>Closing Remarks</strong></td></tr>
+        <tr><td nowrap>6:15 pm - 7:00 pm</td><td colspan="3" class="room1"><strong>Reception</strong> -- appetizers provided in Oakbrook</td></tr>
     </table>
 
 
