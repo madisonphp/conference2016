@@ -133,6 +133,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/blend_thumb.png',
             'twitter' => 'blendimc',
         ),
+        array(
+            'name' => 'HustleWorks',
+            'href' => 'http://billcondo.com/',
+            'img'  => '/assets/images/sponsors/hustleworks.png',
+            'thumbnail' => '/assets/images/sponsors/hustleworks_thumb.png',
+            'twitter' => 'mavrck',
+        ),
     ),
     'community' => array(
         array(
