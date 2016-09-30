@@ -140,6 +140,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/hustleworks_thumb.png',
             'twitter' => 'mavrck',
         ),
+        array(
+            'name' => 'Management Research Services, Inc.',
+            'href' => 'https://mrswi.com/',
+            'img'  => '/assets/images/sponsors/mrs.jpg',
+            'thumbnail' => '/assets/images/sponsors/mrs_thumb.jpg',
+            'twitter' => '',
+        ),
     ),
     'community' => array(
         array(
