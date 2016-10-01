@@ -124,6 +124,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/roberthalf_thumb.jpg',
             'twitter' => 'RobertHalfTech',
         ),
+        array(
+            'name' => 'New Resources Consulting',
+            'href' => 'https://www.nrconsults.com',
+            'img'  => '/assets/images/sponsors/NRC-logo-facebook-v5.png',
+            'thumbnail' => '/assets/images/sponsors/NRC-logo-facebook-v5-thumb.png',
+            'twitter' => '',
+        ),
     ),
     'scholarship' => array(
         array(
