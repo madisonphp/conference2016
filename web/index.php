@@ -128,7 +128,7 @@ $sponsors = array(
             'name' => 'New Resources Consulting',
             'href' => 'https://www.nrconsults.com',
             'img'  => '/assets/images/sponsors/NRC-logo-facebook-v5.png',
-            'thumbnail' => '/assets/images/sponsors/NRC-logo-facebook-v5-thumb.png',
+            'thumbnail' => '/assets/images/sponsors/NRC-logo-facebook-v5_thumb.png',
             'twitter' => '',
         ),
     ),
